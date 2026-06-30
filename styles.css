@@ -622,7 +622,7 @@ h3 {
   display: flex;
   align-items: center;
   gap: 10px;
-  padding-top: 10px;
+  padding-top: 68px;
   padding-bottom: 0px;
 }
 
@@ -643,7 +643,8 @@ h3 {
     font-size: 32px;
     font-weight: 700;
     margin-left: 25px;
-    margin-bottom: 20px; /* add this */
+    margin-bottom: 20px;
+    margin-top: 0;
 }
 
 /* BUTTON CARDS */
