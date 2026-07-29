@@ -209,8 +209,8 @@
   <h2 class="welcome">Hi Jonathan</h2>
 </div>
 
-<div class="cards-scroll">
-    
+<div class="buttons-scroll">   
+  
     <div style="text-decoration:none; color:inherit; display:block;" onclick="showPage('demerit')">
   <div class="demerit-card">
     <img src="0d9abd62a_IMG_6900.jpg" alt="Demerit Points" class="demerit-img">
@@ -1127,6 +1127,11 @@ setTimeout(() => {
   document.querySelectorAll('.page').forEach(p => p.style.display = 'none');
   document.getElementById('pin').style.display = 'block';
 }, 500);
+
+    if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./service-worker.js');
+}
+    
 </script>
 </div>
 </body>
