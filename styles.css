@@ -52,6 +52,11 @@ body {
   text-decoration: none;
 }
 
+.buttons-scroll {
+  height: 100%;              /* or a fixed height like 80vh */
+  overflow-y: auto;          /* vertical scroll only */
+  -webkit-overflow-scrolling: touch; /* smooth iOS scroll */
+}
 
 #home .nav,
 #identity .nav,
