@@ -977,11 +977,12 @@ h3 {
 }
 
 #licence-landing .ll-heading {
-  font-size: 34px;
-  font-weight: 700;
-  color: #1a2332;
-  margin: 0;
-  padding: 20px 0 16px;
+  font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    margin-top: 0;
 }
 
 /* Hero blue card */
@@ -1245,10 +1246,12 @@ background: linear-gradient(180deg, #1e2e3d 0%, #5a7a96 100%);
 }
 
 #vehicles .vehicles-heading {
-  font-size: 34px;      /* was 34px */
-  font-weight: 650;     /* was 700 */
-  color: #1a2332;
-  margin: 20px 0 20px;
+  font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    margin-top: 0;s
 }
 
 #vehicles .vehicles-card {
@@ -1474,10 +1477,12 @@ background: linear-gradient(180deg, #1e2e3d 0%, #5a7a96 100%);
 }
 
 #payment .payment-heading {
-  font-size: 34px;
-  font-weight: 600;
-  color: #1a2332;
-  margin: 20px 0 20px;
+  font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    margin-top: 0;
 }
 
 #payment .payment-card {
@@ -1523,7 +1528,6 @@ background: linear-gradient(180deg, #1e2e3d 0%, #5a7a96 100%);
 
 
 
-
 /* profile page */
 
 
@@ -1562,12 +1566,12 @@ background: linear-gradient(180deg, #1e2e3d 0%, #5a7a96 100%);
 }
 
 #profile .profile-heading {
-  font-size: 34px;
-  font-weight: 700;
-  color: #1a2332;
-  margin: 0;
-  padding: 20px 16px 16px;
-  background: #eef1f4;
+font-family: "SF Pro Display", -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    margin-top: 0;
 }
 
 #profile .profile-content {
