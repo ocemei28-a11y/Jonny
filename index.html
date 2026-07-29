@@ -5,15 +5,37 @@
   <title>MyVicroads</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  <!-- iPhone PWA -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="MyVicroads">
 
-  <link rel="manifest" href="manifest.json">
-  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <!-- PWA -->
+  <link rel="manifest" href="./manifest.json">
 
+  <!-- App Icon -->
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+
+  <!-- CSS -->
   <link rel="stylesheet" href="styles.css">
 </head>
 
+<script>
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./service-worker.js');
+}
+
+  self.addEventListener("install", () => {
+    self.skipWaiting();
+});
+
+self.addEventListener("activate", event => {
+    event.waitUntil(clients.claim());
+});
+  
+</script>
+  
 <body>
 
 <!-- SPLASH SCREEN -->
